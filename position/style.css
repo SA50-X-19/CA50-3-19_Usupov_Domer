@@ -13,21 +13,25 @@
     outline: 2px solid rgb(255, 0, 0);
 }
 .kub2 {
-    position: static;
-    margin-left: 80px;
-    margin-top: 30px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 45;
     width: 50px;
     height: 50px;
     outline: 2px solid rgb(128, 15, 109);
 }
 .kub3 {
     position: static;
-    margin-left: 160px;
-    margin-top: 30px;
-    width: 50px;
-    height: 50px;
+    margin-left: 450px;
+    margin-top: -252px;
+    width: 100px;
+    height: 100px;
     outline: 2px solid rgb(0, 255, 0);
 }
+.probel {
+    height: 30px;
+}
+
 .grouptwo {
     margin: 20px;
     width: 100%; height: 800px;
@@ -52,4 +56,91 @@
     position: relative;
     left: 60px;
     top: -40px;
+}
+.groupthree {
+    margin: 20px;
+    width: 100%; height: 800px;
+}
+.kubup {
+    background-color: rgb(102, 29, 98);
+    width: 50px;
+    height: 50px; 
+    position: relative;
+    z-index: 2;
+    left: 29px;
+    top: -20px;
+}      
+.kub1 {
+    background-color: rgb(255, 0, 0);
+      position: relative;
+      z-index: 1;
+      height: 50px;
+      width: 50px;   
+      left: 100px; 
+      margin-top: 60px;
+      left: 3px;
+      top: 1px; 
+}
+.kub2 {
+    background-color: green;
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    left: -240px;
+    top: -339px; 
+    margin-top: 300px; 
+}
+.groupfour {
+    width: 100%; height: 800px;      
+}
+.kubometria {
+    margin-left: 50px;
+    height: 500px;
+    width: 800px;
+    background-color: rgb(9, 241, 241);
+}
+.kub1{
+    background-color: white;
+    left: 50px;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.kub2{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    left: 350px;
+    top: -50px;
+}
+
+.mnooging {
+    width: 100%; height: 800px;         
+}
+.text {
+    margin: 3%;
+    overflow: auto;
+    flex-direction: column;
+    width: 900px; height: 600px;
+    outline: 2px solid black;
+}
+.zagl {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgba(128, 255, 0, 0.774);
+    outline: 2px solid black;
+}
+.zgltxt {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.text_lorem {
+   margin-top: 2px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
