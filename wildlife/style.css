@@ -7,12 +7,12 @@
 body {
     background-color: #02160b
 }
-.wrapper {
+.wrepper {
     display: flex;
     justify-content: center;
 }
 .header {
-    background-image: url(/wildlife/img/Rectangle.jpg);
+    background-image: url(/wildlife/imogi/Rectangle.jpg);
     background-position: center;
     height: 780px;
     width: 100%;
@@ -25,13 +25,13 @@ a {
     color: white;
 }
 
-.header_left {
+.left {
     padding-top: 20px;
     width: 100%;
     max-width: 240px;
     height: 60px;
 }
-.menu_left{
+.mleft{
     font-size: 32px;
     font-weight: 400;
     line-height: 60px; 
@@ -39,7 +39,7 @@ a {
     font-style: normal;
     text-align: left;          
 }
-.wildlife_and_logo {
+.wal {
     display: flex;
     justify-content: space-around;      
 }
