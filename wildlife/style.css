@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #02160b
+}
+.wrepper {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    background-image: url(/wildlife/imogi/Rectangle.jpg);
+    background-position: center;
+    height: 780px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 240px;
+    height: 60px;
+}
+.mleft{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 60px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-style: normal;
+    text-align: left;          
+}
+.wal {
+    display: flex;
+    justify-content: space-around;      
+}
+
+.right {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 480px;
+    height: 60px;
+}
+.menu {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 60px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;     
+}
+.ml {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    height: 50px;
+    width: 120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: Transparent;
+    color: white;
+}
+
+.mi:hover {
+    transform: translateY(-5px);
+    transition: .6s ease;
+}
